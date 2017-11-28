@@ -46,9 +46,34 @@ body
     
 }
 
-#roster
+#aboutUsTopLink
 {
     margin-top: 0px;
+}
+
+#rosterTopLink
+{
+    margin-top: 0px;
+}
+
+#duoQueuePic
+{
+    display: block;
+    margin: 25px 100px;
+    border-radius: 3000000px;
+    
+}
+
+#afterDuoPic
+{
+    font-family: Cambria, serif;
+    text-indent: 50px;
+}
+
+#dkCrewVid
+{
+    display: block;
+    margin: 0 auto;
 }
 
 .backToTop a
