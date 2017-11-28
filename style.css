@@ -1,9 +1,9 @@
 header
 {
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)), url(images/overwatchBack.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.3)), url(images/overwatchBack.jpg);
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    height: cover;
+    width: cover;
 }
 
 .hero h1 a
@@ -40,6 +40,25 @@ body
     font-size: 130%;
 }
 
+.backToTop
+{
+    margin-top: 1500px;
+    
+}
+
+#roster
+{
+    margin-top: 0px;
+}
+
+.backToTop a
+{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #310eb2;
+    font-size: 130%;
+}
+
 .rosterGroup:before
 {
     width:95vw;
@@ -52,11 +71,35 @@ body
     margin-bottom: 10px;
 }
 
-.tile h1
+.tile
 {
     font-family: Palatino;
     text-align: center;
     color: #310eb2;
+}
+
+.tile h1
+{
     border-left-style: solid;
     
+}
+
+.tile img
+{
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 30%;
+}
+
+#pepe img
+{
+    height: 250px;
+}
+
+.tile p
+{
+    text-align: center;
+    font-size: 30px;
+    color: black;
 }
