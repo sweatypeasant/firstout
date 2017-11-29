@@ -1,9 +1,20 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
 header
 {
     background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.3)), url(images/overwatchBack.jpg);
     background-size: cover;
     height: cover;
     width: cover;
+}
+
+.hero h1
+{
+    padding-top: 25px;
 }
 
 .hero h1 a
@@ -20,24 +31,30 @@ body
     font-family: monospace, serif;
 }
 
+.topOfPage
+{
+    width: 100%;
+    position:fixed;
+}
+
 .top-navigation
 {
-    float: right;
-    
+    background-color: #1b0056;
 }
 
 .top-navigation li
 {
+    
     display:inline-block;
-    margin: 15px;
 }
 
 .top-navigation li a
 {
-    color: #310eb2;
+    color: floralwhite;
     text-decoration: none;
     font-weight: bold;
     font-size: 130%;
+    margin: 30px;
 }
 
 .backToTop
@@ -56,18 +73,12 @@ body
     margin-top: 0px;
 }
 
-#duoQueuePic
-{
-    display: block;
-    margin: 25px 100px;
-    border-radius: 3000000px;
-    
-}
 
 #afterDuoPic
 {
     font-family: Cambria, serif;
-    text-indent: 50px;
+    font-size: 20px;
+    font-style: italic;
 }
 
 #dkCrewVid
@@ -106,6 +117,7 @@ body
 .tile h1
 {
     border-left-style: solid;
+    border-left-width: 5px
     
 }
 
