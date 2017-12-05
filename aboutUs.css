@@ -71,9 +71,29 @@ body, html
     margin-left: 20px;
 }
 
-.reusableIntro p
+.rowNav ul li a:hover
 {
-    
+    color:indianred;
+    text-decoration: none;
+	transition: all 0.22s ease-in;
+}
+
+@media screen and (max-width: 1366px)
+{
+    .reusableIntro h2
+    {
+        padding-top: 10px;
+        margin-left: 0px;
+    }
+    .rowNav
+    {
+        text-align: center;
+    }
+    .rowNav ul li
+    {
+        
+        margin: 0px 30px;
+    }
 }
 
 body
